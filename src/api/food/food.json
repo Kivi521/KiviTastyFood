@@ -1,0 +1,101 @@
+[
+  {
+    "foodId": 1,
+    "foodName": "Nigiri",
+    "foodCode": "ktf-001",
+    "description": "Small rice balls with fish, shellfish, etc. on top. There are countless varieties of nigirizushi, some of the most common ones being tuna, shrimp, eel, squid, octopus and fried egg.",
+    "price": 3.99,
+    "starRating": 4.3,
+    "imageUrl": "assets/images/Nigiri.jpg"
+  },
+  {
+    "foodId": 2,
+    "foodName": "Gunkan",
+    "foodCode": "ktf-002",
+    "description": "Small cups made of sushi rice and dried seaweed filled with seafood, etc. There are countless varieties of gunkanzushi, some of the most common ones being sea urchin and various kinds of fish eggs.",
+    "price": 4.99,
+    "starRating": 4.7,
+    "imageUrl": "assets/images/Gunkan.jpg"
+  },
+  {
+    "foodId": 3,
+    "foodName": "Norimaki",
+    "foodCode": "ktf-003",
+    "description": "Sushi rice and seafood, etc. rolled in dried seaweed sheets. There are countless varieties of sushi rolls differing in ingredients and thickness. Sushi rolls prepared inside out are very popular outside of Japan, but rarely found in Japan.",
+    "price": 2.99,
+    "starRating": 3.7,
+    "imageUrl": "assets/images/Norimaki.jpg"
+  },
+  {
+    "foodId": 4,
+    "foodName": "Temaki",
+    "foodCode": "ktf-004",
+    "description": "Temakizushi (literally hand rolls) are cones made of nori seaweed and filled with sushi rice, seafood and vegetables.",
+    "price": 3.99,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/Temaki.jpg"
+  },
+  {
+    "foodId": 5,
+    "foodName": "Ebi",
+    "foodCode": "ktf-005",
+    "description": "Ebi are a popular tempura ingredient that can be found on virtually all tempura dishes.",
+    "price": 2.89,
+    "starRating": 4.9,
+    "imageUrl": "assets/images/Ebi.jpg"
+  },
+  {
+    "foodId": 6,
+    "foodName": "Satsumaimo",
+    "foodCode": "ktf-006",
+    "description": "Satsumaimo are a type of Japanese sweet potato with a purple skin and yellow flesh. When used for tempura, it is sliced thinly and the skin is left on. Like kabocha, satsumaimo are sweet and starchy.",
+    "price": 1.50,
+    "starRating": 4.8,
+    "imageUrl": "assets/images/Satsumaimo.jpg"
+  },
+  {
+    "foodId": 7,
+    "foodName": "Kake Udon (hot)",
+    "foodCode": "ktf-007",
+    "description": "Kake Udon is a basic udon dish, served in a hot broth that covers the noodles. It has no toppings and is usually garnished with only green onions. Kake Udon is also known as Su Udon in the Osaka region.",
+    "price": 8.89,
+    "starRating": 3.8,
+    "imageUrl": "assets/images/KakeUdon.jpg"
+  },
+  {
+    "foodId": 8,
+    "foodName": "Dango",
+    "foodCode": "ktf-008",
+    "description": "Dango are chewy, small, steamed dumplings made of rice flour. They are typically served skewered three or four to a stick and topped with a sweet sauce or bean paste. The dumplings are also added into other desserts like anmitsu and oshiruko. Like daifuku, dango are best eaten fresh.",
+    "price": 6.59,
+    "starRating": 4,
+    "imageUrl": "assets/images/Dango.jpg"
+  },
+  {
+    "foodId": 9,
+    "foodName": "Taiyaki",
+    "foodCode": "ktf-009",
+    "description": "Taiyaki are fish-shaped snacks made of batter similar to pancake batter and filled with sweet bean paste, although alternative, modern fillings include custard cream, chocolate or cheese. Taiyaki are best eaten hot off the grill when the batter is still crispy.",
+    "price": 6.89,
+    "starRating": 4.7,
+    "imageUrl": "assets/images/Taiyaki.jpg"
+  },
+  {
+    "foodId": 10,
+    "foodName": "Tempura Soba (hot/cold)",
+    "foodCode": "ktf-010",
+    "description": "This soba dish comes with a serving of tempura either on the side or on top of the noodles. There are usually three to five different kinds of tempura pieces, and the ingredients varies from shop to shop. The noodles are served either on a tray (as on the photo) or in a soup.",
+    "price": 18.89,
+    "starRating": 4.5,
+    "imageUrl": "assets/images/TempuraSoba.jpg"
+  },
+  {
+    "foodId": 11,
+    "foodName": "Shabu Shabu",
+    "foodCode": "ktf-011",
+    "description": "Shabu shabu is a dish named after the sound of thin slices of meat being swished in the simmering hot pot. The broth is often very lightly flavored, sometimes just with kombu seaweed and dashi soup stock. All the ingredients except for the meat, which is either thinly sliced beef or pork (or sometimes raw seafood), are typically added into the broth. The meat is swished in the hot pot to cook just before eating. The ingredients are dipped into ponzu or a sesame sauce before eating. Shabu shabu can be found at restaurants that specialize in sukiyaki and shabu shabu dishes.",
+    "price": 48.89,
+    "starRating": 5.0,
+    "imageUrl": "assets/images/ShabuShabu.jpg"
+  }
+]

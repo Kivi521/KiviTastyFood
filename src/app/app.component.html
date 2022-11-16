@@ -1,0 +1,15 @@
+<!-- <div>
+  <h1>TaDa! Welcome to {{pageTitle}}!!</h1>
+  <kf-food></kf-food>
+</div> -->
+
+<nav class='navbar navbar-expand navbar-light bg-light'>
+  <h1 class='navbar-brand'>TaDa! Welcome to {{pageTitle}}!!</h1>
+  <ul class='nav nav-pills'>
+    <li><a class='nav-link' routerLink='/welcome'>Home</a></li>
+    <li><a class='nav-link' routerLink='/food'>Food List</a></li>
+  </ul>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>
