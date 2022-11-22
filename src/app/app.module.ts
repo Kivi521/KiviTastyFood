@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { FoodListComponent } from './food/food-list.component';
-import { ConvertToSpacesPipe } from './shared/convert-to-spaces.pipe';
+import { ConvertToHashtagPipe } from './shared/convert-to-hashtag.pipe';
 import { StarComponent } from './shared/star.component';
 import {HttpClientModule} from "@angular/common/http";
 import { FoodDetailComponent } from './food/food-detail.component';
@@ -18,7 +18,7 @@ import { FoodModule } from './food/food.module';
     AppComponent,
     WelcomeComponent,
     // FoodListComponent,
-    // ConvertToSpacesPipe,
+    // ConvertToHashtagPipe,
     // StarComponent,
     // FoodDetailComponent
   ],

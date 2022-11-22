@@ -15,7 +15,7 @@
           <h4>Filtered by: {{listFilter}}</h4>
         </div>
       </div> -->
-
+   
       <div class='table-responsive'>
         <table class='table' *ngIf="food.length">
                <!-- *ngIf='products.length'> -->
@@ -23,7 +23,7 @@
             <tr>
               <th>
                 <button class='btn btn-primary' (click) = "toggleImage()" >
-                  {{showImage ? "Hide" : "Show"}} Image
+                  {{showImage ? "Hide" : "Show"}} Image  
                 </button>
 
               </th>
@@ -45,7 +45,7 @@
                   {{ f.foodName }}
                 </a>
               </td>
-              <td>{{ f.foodCode | lowercase | convertToSpaces:'-' }}</td> 
+              <td>{{ f.foodCode | lowercase | convertToHashtag:'-' }}</td> 
               <td>{{ f.price | currency: "USD" : "symbol" : "1.2-2" }}</td>
               <td><kf-star [rating]="f.starRating"   (ratingClicked)='onRatingClicked($event)'></kf-star></td>
             </tr>
@@ -55,4 +55,4 @@
       </div>
   
     </div>
-  </div>
+  </div> 

@@ -47,7 +47,7 @@ export class FoodListComponent implements OnInit, OnDestroy{
     //         "price": 3.99,
     //         "starRating": 4.2,
     //         "imageUrl": "assets/images/Nigiri.jpg"
-    //     },
+    //     }, 
     //     {
     //         "foodId": 2,
     //         "foodName": "Gunkan",
@@ -67,7 +67,7 @@ export class FoodListComponent implements OnInit, OnDestroy{
       this.sub = this.foodService.getFood().subscribe({
             next: food => {
                 this.food = food;
-                this.filteredFood = this.food;},
+                this.filteredFood = this.food;}, 
 
             error: err=> this.errorMessage = err
             
@@ -82,11 +82,11 @@ export class FoodListComponent implements OnInit, OnDestroy{
 
     performFilter(filterBy: string): IFood[] {
         filterBy = filterBy.toLocaleLowerCase();
-        return this.food.filter((product: IFood) =>
-          product.foodName.toLocaleLowerCase().includes(filterBy));
+        return this.food.filter((f: IFood) =>
+          f.foodName.toLocaleLowerCase().includes(filterBy));
       }
 
       onRatingClicked(message: string): void {
-        this.pageTitle = 'Product List: ' + message;
+        this.pageTitle = 'Food List: ' + message;
       }
 }
