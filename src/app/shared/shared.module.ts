@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { StarComponent } from './star.component';
 import { FormsModule } from '@angular/forms';
+import { ConvertToHashtagPipe } from './convert-to-hashtag.pipe';
 
 
 
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
   exports:[
     CommonModule,
     FormsModule,
-    StarComponent
+    StarComponent,
+    ConvertToHashtagPipe,
   ]
 })
 export class SharedModule { }
