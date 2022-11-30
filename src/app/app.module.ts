@@ -11,6 +11,7 @@ import { WelcomeComponent } from './home/welcome.component';
 import { RouterModule } from '@angular/router';
 import { FoodDetailGuard } from './food/food-detail.guard';
 import { FoodModule } from './food/food.module';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -18,7 +19,7 @@ import { FoodModule } from './food/food.module';
     AppComponent,
     WelcomeComponent,
     // FoodListComponent,
-    // ConvertToHashtagPipe,
+    ConvertToHashtagPipe,
     // StarComponent,
     // FoodDetailComponent
   ],
@@ -34,6 +35,7 @@ import { FoodModule } from './food/food.module';
         component: FoodDetailComponent 
       },
       {path: "welcome", component: WelcomeComponent},
+      {path: "about", component: AboutComponent},
       {path: "", redirectTo:" welcome ", pathMatch:"full"},
       {path: "**", redirectTo: "welcome", pathMatch:"full"}
 
