@@ -19,7 +19,7 @@ import { AboutComponent } from './about/about.component';
     AppComponent,
     WelcomeComponent,
     // FoodListComponent,
-    ConvertToHashtagPipe,
+    //ConvertToHashtagPipe,
     // StarComponent,
     // FoodDetailComponent
   ],

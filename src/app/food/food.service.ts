@@ -12,13 +12,24 @@ export class FoodService{
 
     constructor(private http: HttpClient){}
 
+    food: IFood[]=[];
+    selectedFood = {};
+
     getFood():Observable<IFood[]>{
         return this.http.get<IFood[]>(this.foodUrl). pipe(
-            tap(data=>console.log("All", JSON.stringify(data))),
+            tap(
+                data=>
+                {
+                    console.log("All", JSON.stringify(data));
+                    this.food = data;
+                    }
+                ),
             catchError(this.handleError)
         );
 
     }
+    
+
     private handleError(err: HttpErrorResponse){
         let errorMessage = "";
         if(err.error instanceof ErrorEvent){

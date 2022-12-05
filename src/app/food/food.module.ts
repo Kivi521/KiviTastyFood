@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 // import { CommonModule } from '@angular/common';
 import { FoodListComponent } from './food-list.component';
-//import { ConvertToHashtagPipe, } from '../shared/convert-to-hashtag.pipe';
+import { ConvertToHashtagPipe, } from '../shared/convert-to-hashtag.pipe';
 import { FoodDetailComponent } from './food-detail.component';
 // import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
@@ -14,7 +14,7 @@ import { SharedModule } from '../shared/shared.module';
 @NgModule({
   declarations: [
     FoodListComponent,
-    //ConvertToHashtagPipe,
+    ConvertToHashtagPipe,
     FoodDetailComponent
     // StarComponent
   ],

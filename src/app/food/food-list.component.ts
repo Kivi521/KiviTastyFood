@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
 import { FoodService } from "./food.service";
 import { IFood } from "./ifood";
+import { Subscription } from "rxjs";
 
 @Component({
     // selector:"kf-food",
