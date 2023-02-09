@@ -1,14 +1,14 @@
-# Apm
+# Kivi Tasty Food
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
 
-## Code scaffolding
+## Generate comments
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Run ` ng generate component component-name|generate directive|pipe|service|class|guard|interface|enum|module` to generate any class.
 
 ## Build
 
@@ -18,10 +18,25 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Version 
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Run `ng version|update` to check version or update to the latest version.
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Run `ng help|command name+ --help` to displays available commands
+
+## Modules Structure Diagram
+
+![module-structure-diagram](../src/assets/diagram/module-structure-diagram.png)
+
+## Application Architecture
+
+![application-architecture](../src/assets/diagram/application-architecture.png)
+
+## website
+
+https://zealous-pebble-020856210.2.azurestaticapps.net
+
+
+
