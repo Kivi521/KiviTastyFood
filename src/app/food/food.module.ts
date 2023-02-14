@@ -25,6 +25,7 @@ import { SharedModule } from '../shared/shared.module';
       { path: 'food', component: FoodListComponent },
       {
         path: 'food/:id',
+        //set the guard I want to execute
         canActivate: [FoodDetailGuard],
         component: FoodDetailComponent
       }
