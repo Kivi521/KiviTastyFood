@@ -28,11 +28,11 @@ Run `ng help|command name+ --help` to displays available commands
 
 ## Modules Structure Diagram
 
-![module-structure-diagram](../src/assets/diagram/module-structure-diagram.png)
+![module-structure-diagram](src/assets/diagram/module-structure-diagram.png)
 
 ## Application Architecture
 
-![application-architecture](../src/assets/diagram/application-architecture.png)
+![application-architecture](src/assets/diagram/application-architecture.png)
 
 ## website
 
